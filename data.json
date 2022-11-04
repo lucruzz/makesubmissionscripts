@@ -1,0 +1,233 @@
+{
+    "oneNode": [
+        {
+            "bootstrap": "100",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "100bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "500bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1000bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1500bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "2000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "2000bs-24th",
+            "time": "05:00:00"
+        }
+    ],
+
+    "twoNodes": [
+        {
+            "bootstrap": "100",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "100bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "500bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1000bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1500bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "2000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "1",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "2000bs-24th",
+            "time": "05:00:00"
+        }
+    ],
+
+    "fourNodes": [
+        {
+            "bootstrap": "100",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "4",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "100bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "4",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "500bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "4",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1000bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "4",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1500bs-24th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "2000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "4",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "2000bs-24th",
+            "time": "05:00:00"
+        }
+    ],
+
+    "eightNodes": [
+        {
+            "bootstrap": "100",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "8",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "500bs-8th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "8",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "500bs-8th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "8",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1000bs-8th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "1500",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "8",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "1500bs-8th",
+            "time": "05:00:00"
+        },
+        {
+            "bootstrap": "2000",
+            "input": "$SCRATCH/raxml/aminoacido.phylip",
+            "nodes": "8",
+            "ntaskspernode": "1",
+            "ntasks": "4",
+            "cpupertask": "24",
+            "partition": "nvidia_long",
+            "jobname": "2000bs-8th",
+            "time": "05:00:00"
+        }
+    ]
+}
