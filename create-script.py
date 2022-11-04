@@ -8,7 +8,7 @@ class SubmissionFile:
         self.ntasks = '#SBATCH --ntasks='
         self.cpupertask = '#SBATCH --cpus-per-task='
         self.partition = '#SBATCH --partition='
-        self.jobname = '#SBATCH --jobname='
+        self.jobname = '#SBATCH --job-name='
         self.walltime = '#SBATCH --time='
         self.exclusive = '#SBATCH --exclusive'
         pass
@@ -78,7 +78,7 @@ class SubmissionFile:
 
     def putOnFileDirectives(self, filename):
         
-        scriptFile = open(filename, "a")
+        scriptFile = open(filename, "w")
         values = self.getAllDirectives()
         
         for line in values:
