@@ -1,8 +1,10 @@
-# makesubmissionscripts
+# mksub
 
-## To run
+## Script to make file submission for Slurm
 
-### Example:
+### To run
+
+*Example:*
 
 The arguments are:
 
