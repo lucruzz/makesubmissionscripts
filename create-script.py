@@ -216,5 +216,5 @@ def readFromCommandLine():
     executeRaxml.putOnFileCommands(fileSubmission)
 
 if __name__=='__main__':
-    #readFromCommandLine()
-    readFromJSON()
+    readFromCommandLine()
+    #readFromJSON()
